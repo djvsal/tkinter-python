@@ -1,4 +1,4 @@
-import tkinter as tk
+import tkinter as tk  # hello world
 import random
 window=tk.Tk()
 window.title('Greetings____')
@@ -22,10 +22,10 @@ def phrase_display():
 	greeting_display.insert(tk.END, greeting)
 
 #LABEL
-label1=tk.Label(text='welcome to my app')
+label1=tk.Label(text='welcome to my App')
 label1.grid(column=0,row=0)
 
-label2=tk.Label(text='what is your name?')
+label2=tk.Label(text='what is your Name?')
 label2.grid(column=0,row=1)
 
 #ENTRIES
